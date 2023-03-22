@@ -461,7 +461,7 @@
   "canto": "eip155:7700",
   "RiseOfTheWarbotsTestnet": "eip155:7777",
   "tscas": "eip155:7878",
-  "DOS Chain Mainnet": "eip155:7979",
+  "DOSChain": "eip155:7979",
   "teleport": "eip155:8000",
   "teleport-testnet": "eip155:8001",
   "mdgl": "eip155:8029",

@@ -6007,7 +6007,7 @@
 }, {
   "name": "DOS Chain",
   "chainId": 7979,
-  "shortName": "DOS Chain Mainnet",
+  "shortName": "DOSChain",
   "networkId": 7979,
   "nativeCurrency": {
     "name": "DOS Native Token",
