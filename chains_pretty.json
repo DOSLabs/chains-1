@@ -2301,6 +2301,31 @@
     "standard": "EIP3091"
   }]
 }, {
+  "name": "WoopChain Mainnet",
+  "chain": "WOOP",
+  "icon": "woopchain",
+  "rpc": ["https://rpc.woop.ai/rpc"],
+  "features": [{
+    "name": "EIP155"
+  }, {
+    "name": "EIP1559"
+  }],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "WoopCoin",
+    "symbol": "WOOC",
+    "decimals": 18
+  },
+  "infoURL": "https://wikiwoop.com",
+  "shortName": "woop",
+  "chainId": 139,
+  "networkId": 139,
+  "explorers": [{
+    "name": "wikiwoop",
+    "url": "https://explorer.wikiwoop.com",
+    "standard": "EIP3091"
+  }]
+}, {
   "name": "Openpiece Testnet",
   "chain": "OPENPIECE",
   "icon": "openpiece",
@@ -4274,7 +4299,7 @@
   }]
 }, {
   "name": "Lucid Blockchain",
-  "chain": "Lucid Blockchain",
+  "chain": "Lucid",
   "icon": "lucid",
   "rpc": ["https://rpc.lucidcoin.io"],
   "faucets": ["https://faucet.lucidcoin.io"],
@@ -6375,6 +6400,54 @@
     "standard": "EIP3091"
   }]
 }, {
+  "name": "Lightlink Phoenix Mainnet",
+  "chain": "Lightlink Phoenix Mainnet",
+  "icon": "lightlink",
+  "rpc": ["https://replicator-01.phoenix.lightlink.io/rpc/v1", "https://replicator-02.phoenix.lightlink.io/rpc/v1"],
+  "features": [{
+    "name": "EIP155"
+  }],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Ethereum",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "infoURL": "https://lightlink.io",
+  "shortName": "lightlink_phoenix",
+  "chainId": 1890,
+  "networkId": 1890,
+  "explorers": [{
+    "name": "phoenix",
+    "url": "https://phoenix.lightlink.io",
+    "icon": "lightlink",
+    "standard": "EIP3091"
+  }]
+}, {
+  "name": "Lightlink Pegasus Testnet",
+  "chain": "Lightlink Pegasus Testnet",
+  "icon": "lightlink",
+  "rpc": ["https://replicator-01.pegasus.lightlink.io/rpc/v1", "https://replicator-02.pegasus.lightlink.io/rpc/v1"],
+  "features": [{
+    "name": "EIP155"
+  }],
+  "faucets": ["https://pegasus-faucet-react.vercel.app"],
+  "nativeCurrency": {
+    "name": "Ethereum",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "infoURL": "https://lightlink.io",
+  "shortName": "lightlink_pegasus",
+  "chainId": 1891,
+  "networkId": 1891,
+  "explorers": [{
+    "name": "pegasus",
+    "url": "https://pegasus.lightlink.io",
+    "icon": "lightlink",
+    "standard": "EIP3091"
+  }]
+}, {
   "name": "BON Network",
   "chain": "BON",
   "rpc": ["http://rpc.boyanet.org:8545", "ws://rpc.boyanet.org:8546"],
@@ -7863,6 +7936,26 @@
     "standard": "EIP3091"
   }]
 }, {
+  "name": "AlveyChain Mainnet",
+  "chain": "ALV",
+  "icon": "alveychain",
+  "rpc": ["https://rpc.alveychain.com/rpc", "https://rpc2.alvey.io/rpc"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "AlveyCoin",
+    "symbol": "ALV",
+    "decimals": 18
+  },
+  "infoURL": "https://alveyscan.com/rpc",
+  "shortName": "alv",
+  "chainId": 3797,
+  "networkId": 3797,
+  "explorers": [{
+    "name": "AlveyScan",
+    "url": "https://alveyscan.com",
+    "standard": "EIP3091"
+  }]
+}, {
   "name": "DRAC Network",
   "chain": "DRAC",
   "rpc": ["https://www.dracscan.com/rpc"],
@@ -8868,6 +8961,44 @@
     "name": "Shyft BX",
     "url": "https://bx.shyft.network",
     "standard": "EIP3091"
+  }]
+}, {
+  "name": "The Root Network - Mainnet",
+  "chain": "TRN",
+  "rpc": ["https://root.rootnet.live/archive", "wss://root.rootnet.live/archive/ws"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "XRP",
+    "symbol": "XRP",
+    "decimals": 6
+  },
+  "infoURL": "https://www.futureverse.com/technology/root",
+  "shortName": "trn-mainnet",
+  "chainId": 7668,
+  "networkId": 7668,
+  "explorers": [{
+    "name": "rootnet",
+    "url": "https://explorer.rootnet.live",
+    "standard": "none"
+  }]
+}, {
+  "name": "The Root Network - Porcini Testnet",
+  "chain": "TRN",
+  "rpc": ["https://porcini.rootnet.app/archive", "wss://porcini.rootnet.app/archive/ws"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "XRP",
+    "symbol": "XRP",
+    "decimals": 6
+  },
+  "infoURL": "https://www.futureverse.com/technology/root",
+  "shortName": "trn-porcini",
+  "chainId": 7672,
+  "networkId": 7672,
+  "explorers": [{
+    "name": "rootnet",
+    "url": "https://explorer.rootnet.cloud",
+    "standard": "none"
   }]
 }, {
   "name": "Canto",
@@ -11777,6 +11908,25 @@
     "standard": "none"
   }]
 }, {
+  "name": "Syscoin Rollux Testnet",
+  "chain": "SYS",
+  "rpc": ["https://rpc-tanenbaum.rollux.com", "wss://rpc-tanenbaum.rollux.com/wss"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Rollux Testnet Syscoin",
+    "symbol": "tSYS",
+    "decimals": 18
+  },
+  "infoURL": "https://syscoin.org",
+  "shortName": "tsys-rollux",
+  "chainId": 57000,
+  "networkId": 57000,
+  "explorers": [{
+    "name": "Syscoin Rollux Testnet Explorer",
+    "url": "https://rollux.tanenbaum.io",
+    "standard": "EIP3091"
+  }]
+}, {
   "name": "Thinkium Testnet Chain 0",
   "chain": "Thinkium",
   "rpc": ["https://test.thinkiumrpc.net/"],
@@ -12323,6 +12473,20 @@
     "url": "https://base-goerli.blockscout.com",
     "standard": "none"
   }]
+}, {
+  "name": "CYBERTRUST",
+  "chain": "CYBER",
+  "rpc": ["http://testnet.cybertrust.space:48501"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Cyber Trust",
+    "symbol": "CYBER",
+    "decimals": 18
+  },
+  "infoURL": "https://cybertrust.space",
+  "shortName": "Cyber",
+  "chainId": 85449,
+  "networkId": 48501
 }, {
   "name": "Chiliz Scoville Testnet",
   "chain": "CHZ",
@@ -13021,6 +13185,26 @@
     "standard": "none"
   }]
 }, {
+  "name": "Taiko (Alpha-2 Testnet)",
+  "chain": "ETH",
+  "icon": "taiko",
+  "rpc": ["https://rpc.a2.taiko.xyz"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "infoURL": "https://taiko.xyz",
+  "shortName": "taiko-a2",
+  "chainId": 167004,
+  "networkId": 167004,
+  "explorers": [{
+    "name": "blockscout",
+    "url": "https://explorer.a2.taiko.xyz",
+    "standard": "EIP3091"
+  }]
+}, {
   "name": "Condor Test Network",
   "chain": "CONDOR",
   "icon": "condor",
@@ -13253,6 +13437,26 @@
     "name": "explorer masnet",
     "url": "https://explorer.masnet.ai",
     "standard": "EIP3091"
+  }]
+}, {
+  "name": "HashKey Chain Testnet",
+  "chain": "HashKey",
+  "rpc": ["https://testnet.hashkeychain/rpc"],
+  "faucets": ["https://testnet.hashkeychain/faucet"],
+  "nativeCurrency": {
+    "name": "HashKey Token",
+    "symbol": "tHSK",
+    "decimals": 18
+  },
+  "infoURL": "https://www.hashkey.com",
+  "shortName": "hsktest",
+  "chainId": 230315,
+  "networkId": 230315,
+  "icon": "hsk",
+  "explorers": [{
+    "name": "HashKey Chain Testnet Explorer",
+    "url": "https://testnet.hashkeyscan.io",
+    "standard": "none"
   }]
 }, {
   "name": "Haymo Testnet",
@@ -14798,6 +15002,31 @@
   "explorers": [{
     "name": "autonity-blockscout",
     "url": "https://piccadilly.autonity.org",
+    "standard": "EIP3091"
+  }]
+}, {
+  "name": "T.E.A.M Blockchain",
+  "chain": "TEAM",
+  "rpc": ["https://rpc.teamblockchain.team"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "TEAM",
+    "symbol": "$TEAM",
+    "decimals": 18
+  },
+  "features": [{
+    "name": "EIP155"
+  }, {
+    "name": "EIP1559"
+  }],
+  "infoURL": "https://teamblockchain.team",
+  "shortName": "team",
+  "chainId": 88888888,
+  "networkId": 88888888,
+  "explorers": [{
+    "icon": "team",
+    "name": "teamscan",
+    "url": "https://teamblockchain.team",
     "standard": "EIP3091"
   }]
 }, {
