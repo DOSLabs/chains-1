@@ -2075,7 +2075,7 @@
     "symbol": "ETH",
     "decimals": 18
   },
-  "rpc": ["https://zksync2-testnet.zksync.dev"],
+  "rpc": ["https://testnet.era.zksync.dev"],
   "faucets": ["https://goerli.portal.zksync.io/faucet"],
   "infoURL": "https://era.zksync.io/docs/"
 }, {
@@ -2231,7 +2231,7 @@
     "symbol": "ETH",
     "decimals": 18
   },
-  "rpc": ["https://zksync2-mainnet.zksync.io"],
+  "rpc": ["https://mainnet.era.zksync.io"],
   "faucets": [],
   "infoURL": "https://zksync.io/"
 }, {
@@ -8760,6 +8760,19 @@
   "rpc": ["https://rpc.main.siberium.net", "https://rpc.main.siberium.net.ru"],
   "faucets": [],
   "infoURL": "https://siberium.net"
+}, {
+  "name": "ADIL Devnet",
+  "chainId": 123456,
+  "shortName": "dadil",
+  "networkId": 123456,
+  "nativeCurrency": {
+    "name": "Devnet ADIL",
+    "symbol": "ADIL",
+    "decimals": 18
+  },
+  "rpc": ["https://devnet.adilchain-rpc.io"],
+  "faucets": [],
+  "infoURL": "https://adilchain.io"
 }, {
   "name": "ETND Chain Mainnets",
   "chainId": 131419,
